@@ -1,0 +1,9 @@
+* urlEncode.l
+** Introduction
+Encodes a string into a URL friendly one.
+** Usage
+#+BEGIN_SRC picolisp
+  (urlEncode "test[string] t'o t-he L3ft")
+#+END_SRC
+#+RESULTS
+-> "test%5Bstring%5D+t'o+t-he+L3ft"
